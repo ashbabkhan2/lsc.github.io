@@ -1,0 +1,22 @@
+*{    
+    background: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.a11{
+    width: 150px;
+    height: auto;
+    align-content: center;
+    max-width: 50%;
+    margin-top: 40px;
+}
+@media (max-width: 576px) {
+    .a11{
+        border-radius: 50%;
+    }
+    .l1{
+        line-height: 0.7;
+    }
+}

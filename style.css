@@ -3,20 +3,11 @@
     position: sticky;
     top:0;
 }
-.a11{
-    width: 150px;
-    height: auto;
-    align-content: center;
-    max-width: 50%;
-    margin-top: 40px;
-}
 .g{
     margin: 0;
     line-height: 0.7;
 }
-.l1{
-    line-height: 0.7;
-}
+
 *{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -49,9 +40,7 @@ nav a:hover{
         font-size: 30px;
         margin-top: 20px;
     }
-    .a11{
-        border-radius: 50%;
-    }
+    
     .c{
         font-size: 30px;
         line-height: 0.2;
