@@ -1,84 +1,74 @@
-img{
-    border-radius: 0%;    
+.navbar{
+    z-index: 3;
+    position: sticky;
+    top:0;
 }
-.t{
-    font-size: 35px;
-}
-
-.dd{
-    z-index: 1;
-    margin-top: 70px;
-    margin-bottom: 70px;
+.a11{
+    width: 150px;
+    height: auto;
+    align-content: center;
+    max-width: 50%;
+    margin-top: 40px;
 }
 .g{
-    margin-bottom: 0px;
-    text-decoration: underline;
+    margin: 0;
+    line-height: 0.7;
 }
-.navbar{
-    position:sticky;
+.l1{
+    line-height: 0.7;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover{
+   margin: 0;
+   border-bottom:2px solid white ;
+}
+.h{
+    margin-top: 40px;
+    line-height: 0.5;
+}
+.carousel-inner{
     z-index: 2;
-    right: 0;
-    left: 0;
-    top: 0;
+    border-radius: 2%;
 }
-.page{
-    height: 400px;
-    padding-top: 80px;
-    background:url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.middle{
+    padding-top: 50px;
+    background: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 500px;
 }
-
-*{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-.c{
-    line-height: 0.9;
-}
-.nav-link{
-    margin-right: 30px;
-}
-.middle-page{
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-  .foot{
-    height: 100px;
-    background: black;
-}
-h4{
-    font-size: 30px;;
-}
-img {
-  margin-top: 20px;  
-  width: 100%;
-  height:auto;
-  align-items: center;
-}
-
-@media (max-width: 576px) { 
-    .display-2{
-        font-size: 40px; 
+@media (max-width: 576px) {
+    .g{
+        font-size: 36px;
+        line-height: 0.8;
     }
-      
-    .t{
-        font-size: 20px;
+    .g1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .a11{
+        border-radius: 50%;
+    }
+    .c{
+        font-size: 30px;
+        line-height: 0.2;
+        margin-bottom: 30px;
+    }
+    .a3{
+        font-size: 21px;
+    }
+    .a1{
+        line-height: 0.5;
+        font-size: 18px;
+    }
+    .middle{
+        height: 280px;
     }
     .h{
-        font-size: 16;
-        line-height: 0.6;
-    }
-     .page{
-        padding-top: 40px;
-        height: 250px;
-        background-color:red;
-    }
-    h4{
-        font-size: 20px;;
+        margin-top: 17px;
+        line-height: 0.8;
     }
  }
-
