@@ -1,3 +1,31 @@
+.f{
+    color: rgba(255,105,180,1);
+    margin: 50px 0px;
+
+}
+.dd{
+    font-size: 50px;
+}
+.he{
+    font-size: 36px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+}
+.co{
+    margin: 15px 0px;
+    width: 100%;
+    padding: 13px 0px;
+    box-shadow:1px 1px 1px 1px rgba(0,0,0,0.2);
+    height: auto;
+}
+.co:hover{
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.2);
+}
+.cll{
+    color: rgba(255,105,180,1);
+    line-height: 0.7;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.5);
+    font-size:20px;
+}
 .nb{
     position: sticky;
     color: white;
@@ -60,6 +88,9 @@ nav a:hover{
     z-index: 3;
 }
 @media (max-width: 576px) {
+    .co{
+        margin: 15px 10px;    }
+    
     .g{
         font-size: 36px;
         line-height: 0.8;
